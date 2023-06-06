@@ -584,7 +584,7 @@ template {
 .input--checkbox:checked + span:after {
   content: "";
   position: absolute;
-  background: url("../images/checked-checkbox.svg") 50% 50% no-repeat;
+  background: url("./images/checked-checkbox.svg") 50% 50% no-repeat;
   width: 32px;
   height: 32px;
   left: -48px;
@@ -659,7 +659,7 @@ template {
   display: block;
   top: 50%;
   transform: translateY(-50%);
-  background: url("../images/Attach_file.svg") center center no-repeat;
+  background: url("./images/Attach_file.svg") center center no-repeat;
   left: 24px;
 }
 .download__wrapper.desktop {
@@ -1250,7 +1250,7 @@ template {
   transform: rotate(-45deg) translate(5px, -6px);
 }
 .header__burger-menu {
-  background: #FFFFFF url("../images/bg/header-mobile-menu.jpg") center center/cover no-repeat;
+  background: #FFFFFF url("./images/bg/header-mobile-menu.jpg") center center/cover no-repeat;
   background-color: #FFFFFF;
   position: fixed;
   right: -9999px;
@@ -1311,7 +1311,7 @@ template {
   right: 0;
   width: 24px;
   height: 24px;
-  background: url("../images/burger-arrow.svg") center center no-repeat;
+  background: url("./images/burger-arrow.svg") center center no-repeat;
 }
 .header__nav {
   flex-grow: 1;
@@ -1595,7 +1595,7 @@ Homepage
 */
 .hero {
   position: relative;
-  background: url("../images/bg/hero.jpg") center center no-repeat;
+  background: url("./images/bg/hero.jpg") center center no-repeat;
 }
 .hero__overlay {
   position: absolute;
@@ -1704,7 +1704,7 @@ Homepage
   align-items: flex-end;
 }
 .processes__wrapper .cards__wrapper .card:nth-child(2) {
-  background: url("../images/processes_card.jpg") center center no-repeat;
+  background: url("./images/processes_card.jpg") center center no-repeat;
   background-size: cover;
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
 }
@@ -1780,7 +1780,7 @@ Homepage
   box-shadow: 0px 80px 90px rgba(17, 26, 43, 0.08), 0px 40px 30px rgba(0, 14, 26, 0.03), 0px 5px 7px rgba(0, 14, 26, 0.02);
   border-radius: 999px;
   cursor: pointer;
-  background: url("../images/swiper-next.svg") center center no-repeat, #fff;
+  background: url("./images/swiper-next.svg") center center no-repeat, #fff;
 }
 .capabilities__swiper-button-prev {
   width: 48px;
@@ -1788,7 +1788,7 @@ Homepage
   box-shadow: 0px 80px 90px rgba(17, 26, 43, 0.08), 0px 40px 30px rgba(0, 14, 26, 0.03), 0px 5px 7px rgba(0, 14, 26, 0.02);
   border-radius: 999px;
   cursor: pointer;
-  background: url("../images/swiper-prev.svg") no-repeat center center, #fff;
+  background: url("./images/swiper-prev.svg") no-repeat center center, #fff;
 }
 
 @media (max-width: 450px) {
@@ -1803,7 +1803,7 @@ Homepage
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
 }
 .management .cards__wrapper.first .card:nth-child(2) .card__content {
-  background: url("../images/management_card_1.jpg") center right no-repeat;
+  background: url("./images/management_card_1.jpg") center right no-repeat;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
@@ -1820,7 +1820,7 @@ Homepage
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
 }
 .management .cards__wrapper.second .card:nth-child(1) .card__content {
-  background: url("../images/managment_card_2.jpg") center right no-repeat;
+  background: url("./images/managment_card_2.jpg") center right no-repeat;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
 }
@@ -2140,15 +2140,15 @@ Homepage
   margin-top: 0;
 }
 .benefits .benefits__wrapper .cards__wrapper .card:nth-child(2) {
-  background: url("../images/benefits_card_bg_1.jpg") left center no-repeat;
+  background: url("./images/benefits_card_bg_1.jpg") left center no-repeat;
   background-size: cover !important;
 }
 .benefits .benefits__wrapper .cards__wrapper .card:nth-child(4) {
-  background: url("../images/benefits_card_bg_2.jpg") left center no-repeat;
+  background: url("./images/benefits_card_bg_2.jpg") left center no-repeat;
   background-size: cover !important;
 }
 .benefits .benefits__wrapper .cards__wrapper .card:nth-child(6) {
-  background: url("../images/benefits_card_bg_3.jpg") left center no-repeat;
+  background: url("./images/benefits_card_bg_3.jpg") left center no-repeat;
   background-size: cover !important;
 }
 @media (max-width: 1200px) {
@@ -2233,7 +2233,7 @@ Homepage
   box-shadow: 0px 80px 90px rgba(17, 26, 43, 0.08), 0px 40px 30px rgba(0, 14, 26, 0.03), 0px 5px 7px rgba(0, 14, 26, 0.02);
   border-radius: 999px;
   cursor: pointer;
-  background: url("../images/swiper-next.svg") center center no-repeat, #fff;
+  background: url("./images/swiper-next.svg") center center no-repeat, #fff;
 }
 .testimonials__swiper-button-prev {
   width: 48px;
@@ -2241,7 +2241,7 @@ Homepage
   box-shadow: 0px 80px 90px rgba(17, 26, 43, 0.08), 0px 40px 30px rgba(0, 14, 26, 0.03), 0px 5px 7px rgba(0, 14, 26, 0.02);
   border-radius: 999px;
   cursor: pointer;
-  background: url("../images/swiper-prev.svg") no-repeat center center, #fff;
+  background: url("./images/swiper-prev.svg") no-repeat center center, #fff;
 }
 .testimonials__swiper-pagination {
   display: flex;
@@ -2349,7 +2349,7 @@ Homepage
 }
 
 .testimonials__swiper .swiper-slide-active {
-  background: url("../images/testimonials_card_bg.jpg") center right;
+  background: url("./images/testimonials_card_bg.jpg") center right;
   background-size: cover !important;
   box-shadow: 0px 80px 90px rgba(17, 26, 43, 0.08), 0px 40px 30px rgba(0, 14, 26, 0.03), 0px 5px 7px rgba(0, 14, 26, 0.02);
   opacity: 1;
@@ -2506,7 +2506,7 @@ Homepage
   content: "";
   flex-shrink: 0;
   display: block;
-  background: url("../images/Minus.svg") no-repeat center/32px;
+  background: url("./images/Minus.svg") no-repeat center/32px;
   background-size: contain;
   width: 400%;
   height: 400%;
@@ -2541,7 +2541,7 @@ Homepage
   content: "";
   flex-shrink: 0;
   display: block;
-  background: url("../images/Plus.svg") no-repeat center/32px;
+  background: url("./images/Plus.svg") no-repeat center/32px;
   background-size: contain;
   width: 400%;
   height: 400%;
@@ -2615,7 +2615,7 @@ Homepage
   width: 13px;
   height: 13px;
   display: block;
-  background: url("../images/arrow-download.svg") center center no-repeat;
+  background: url("./images/arrow-download.svg") center center no-repeat;
 }
 @media (max-width: 768px) {
   .subscribe-form__caption:after {
@@ -2976,7 +2976,7 @@ Homepage
 Specifications styles
 */
 .architecture {
-  background: url("../images/specs/arch_bg.jpg") center no-repeat;
+  background: url("./images/specs/arch_bg.jpg") center no-repeat;
   padding: 78px 0 130px 0;
 }
 @media (max-width: 1600px) {
@@ -3126,7 +3126,7 @@ Specifications styles
 
 .tech {
   background-size: contain !important;
-  background: linear-gradient(90.42deg, #FFFFFF -0.73%, rgba(255, 255, 255, 0) 49.68%), url("../images/specs/tech_bg.jpg") 100% 50% no-repeat;
+  background: linear-gradient(90.42deg, #FFFFFF -0.73%, rgba(255, 255, 255, 0) 49.68%), url("./images/specs/tech_bg.jpg") 100% 50% no-repeat;
   padding: 64px 0;
   position: relative;
   z-index: -1;
@@ -3335,7 +3335,7 @@ Specifications styles
 }
 
 .multilingual {
-  background: #1C5393 url("../images/specs/multilingual_bg.jpg") center no-repeat;
+  background: #1C5393 url("./images/specs/multilingual_bg.jpg") center no-repeat;
   padding: 130px 0;
 }
 @media (max-width: 1600px) {
@@ -3346,7 +3346,7 @@ Specifications styles
 @media (max-width: 576px) {
   .multilingual {
     padding: 48px 16px;
-    background: #1C5393 url("../images/specs/multilingual_mobile.jpg") center no-repeat;
+    background: #1C5393 url("./images/specs/multilingual_mobile.jpg") center no-repeat;
   }
 }
 .multilingual__wrapper {
@@ -3484,7 +3484,7 @@ Specifications styles
   }
 }
 .integrations__container {
-  background: url("../images/specs/integrations.jpg") center/cover no-repeat;
+  background: url("./images/specs/integrations.jpg") center/cover no-repeat;
   border-radius: 0px 0px 40px 40px;
   padding: 130px 0;
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
@@ -3581,7 +3581,7 @@ Specifications styles
   box-shadow: 0px 12px 40px rgba(17, 26, 43, 0.02), 0px 0.5px 2px rgba(17, 26, 43, 0.08);
 }
 .integrations__item:nth-child(1) {
-  background: url("../images/specs/int_card_1.jpg") center no-repeat;
+  background: url("./images/specs/int_card_1.jpg") center no-repeat;
 }
 @media (max-width: 400px) {
   .integrations__item:nth-child(1) {
@@ -3589,7 +3589,7 @@ Specifications styles
   }
 }
 .integrations__item:nth-child(3) {
-  background: url("../images/specs/int_card_3.jpg") center no-repeat;
+  background: url("./images/specs/int_card_3.jpg") center no-repeat;
 }
 @media (max-width: 400px) {
   .integrations__item:nth-child(3) {
@@ -3599,11 +3599,11 @@ Specifications styles
 }
 @media (max-width: 400px) {
   .integrations__item:nth-child(4) {
-    background: url("../images/specs/int_card_3.jpg") no-repeat top right;
+    background: url("./images/specs/int_card_3.jpg") no-repeat top right;
   }
 }
 .integrations__item:nth-child(5) {
-  background: url("../images/specs/int_card_2.jpg") center left no-repeat;
+  background: url("./images/specs/int_card_2.jpg") center left no-repeat;
 }
 @media (max-width: 992px) {
   .integrations__item {
@@ -3661,7 +3661,7 @@ Specifications styles
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  background: linear-gradient(to right, #FFF 0%, #ffffff 50%, transparent 50%, transparent 100%), url("../images/specs/licensingbg.jpg") center right repeat-x;
+  background: linear-gradient(to right, #FFF 0%, #ffffff 50%, transparent 50%, transparent 100%), url("./images/specs/licensingbg.jpg") center right repeat-x;
   background-size: contain;
   padding: 64px 0;
   z-index: 1;
@@ -3835,7 +3835,7 @@ Specifications styles
     border-top-right-radius: 0;
     margin-bottom: 40px;
     background-size: cover;
-    background: url("../images/specs/licensingbg.jpg") no-repeat bottom right;
+    background: url("./images/specs/licensingbg.jpg") no-repeat bottom right;
   }
 }
 @media (max-width: 360px) {
@@ -3850,7 +3850,7 @@ Architecture styles
 
 */
 .scaling {
-  background: url("../images/specs/scaling_bg.jpg") center/cover no-repeat;
+  background: url("./images/specs/scaling_bg.jpg") center/cover no-repeat;
 }
 @media (max-width: 1440px) {
   .scaling {
@@ -3973,7 +3973,7 @@ Architecture styles
   display: block;
   width: 244px;
   height: 24px;
-  background: url("../images/specs/scaling_links_2.svg") center/cover;
+  background: url("./images/specs/scaling_links_2.svg") center/cover;
   left: calc(50% - 3px);
   top: calc(50% - 5px);
   transform: translate(-50%, -50%);
@@ -3998,7 +3998,7 @@ Architecture styles
   display: block;
   width: 122px;
   height: 24px;
-  background: url("../images/specs/scaling_links_1.svg") center/cover;
+  background: url("./images/specs/scaling_links_1.svg") center/cover;
   left: calc(50% + 62px);
   top: calc(50% - 5px);
   transform: translate(-50%, -50%);
@@ -4038,7 +4038,7 @@ Architecture styles
   display: block;
   width: 228px;
   height: 24px;
-  background: url("../images/specs/scaling_links_3.svg") center/cover;
+  background: url("./images/specs/scaling_links_3.svg") center/cover;
   right: calc(50% - 110px);
   top: calc(50% - 5px);
   transform: translate(-50%, -50%);
@@ -4160,7 +4160,7 @@ Architecture styles
   .scaling__item.scaling__item--long:after {
     left: 49%;
     bottom: -26px;
-    background: url("../images/specs/sclaing_conector_mobile_bottom.png") center/contain no-repeat;
+    background: url("./images/specs/sclaing_conector_mobile_bottom.png") center/contain no-repeat;
   }
 }
 @media (max-width: 992px) and (max-width: 576px) {
@@ -4177,7 +4177,7 @@ Architecture styles
   .scaling__item.scaling__item--long:before {
     left: 47.5%;
     top: -33px;
-    background: url("../images/specs/scaling_conector_mobile_top.png") center/contain no-repeat;
+    background: url("./images/specs/scaling_conector_mobile_top.png") center/contain no-repeat;
   }
 }
 @media (max-width: 992px) and (max-width: 768px) {
@@ -4281,7 +4281,7 @@ Architecture styles
 }
 
 .security {
-  background: #F8F8FA url("../images/specs/security_bg.jpg") 100% 50% no-repeat;
+  background: #F8F8FA url("./images/specs/security_bg.jpg") 100% 50% no-repeat;
   background-size: contain !important;
 }
 @media (max-width: 1440px) {
@@ -4297,7 +4297,7 @@ Architecture styles
 }
 @media (max-width: 768px) {
   .security {
-    background: #F8F8FA url("../images/arch/Security (1).jpg") center bottom no-repeat;
+    background: #F8F8FA url("./images/arch/Security (1).jpg") center bottom no-repeat;
     padding: 48px 16px;
   }
 }
@@ -4369,7 +4369,7 @@ Architecture styles
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
 }
 .security__item:first-child {
-  background: url("../images/specs/security_item_1.jpg");
+  background: url("./images/specs/security_item_1.jpg");
   margin-bottom: 32px;
 }
 @media (max-width: 768px) {
@@ -4379,7 +4379,7 @@ Architecture styles
   }
 }
 .security__item:nth-child(2) {
-  background: url("../images/specs/security_item_2.jpg");
+  background: url("./images/specs/security_item_2.jpg");
 }
 @media (max-width: 768px) {
   .security__item:nth-child(2) {
@@ -4465,7 +4465,7 @@ Architecture styles
 }
 
 .scontrol {
-  background: url("../images/specs/scontrol_bg.jpg") 100% 0% no-repeat;
+  background: url("./images/specs/scontrol_bg.jpg") 100% 0% no-repeat;
 }
 @media (max-width: 1440px) {
   .scontrol {
@@ -4475,7 +4475,7 @@ Architecture styles
 @media (max-width: 768px) {
   .scontrol {
     padding: 50px 16px;
-    background: url("../images/arch/Security (2).jpg") no-repeat;
+    background: url("./images/arch/Security (2).jpg") no-repeat;
   }
 }
 @media (max-width: 576px) {
@@ -4532,7 +4532,7 @@ Architecture styles
 .scontrol__item {
   margin-top: 88px;
   border-radius: 40px;
-  background: url("../images/specs/scontrol_item_bg.jpg") center/cover no-repeat;
+  background: url("./images/specs/scontrol_item_bg.jpg") center/cover no-repeat;
   padding: 59px 64px;
   max-width: 958px;
 }
@@ -4568,7 +4568,7 @@ Architecture styles
 }
 
 .service {
-  background: #F8F8FA url("../images/arch/service_bg.png") 100% 50% no-repeat;
+  background: #F8F8FA url("./images/arch/service_bg.png") 100% 50% no-repeat;
   background-size: contain !important;
 }
 @media (max-width: 1440px) {
@@ -4682,10 +4682,10 @@ Architecture styles
   border-radius: 40px;
 }
 .service__item:first-child {
-  background: url("../images/specs/security_item_1.jpg") center/cover no-repeat;
+  background: url("./images/specs/security_item_1.jpg") center/cover no-repeat;
 }
 .service__item:nth-child(3) {
-  background: url("../images/specs/security_item_2.jpg") center/cover no-repeat;
+  background: url("./images/specs/security_item_2.jpg") center/cover no-repeat;
 }
 @media (max-width: 640px) {
   .service__item {
@@ -4723,7 +4723,7 @@ Architecture styles
 }
 
 .system {
-  background: url("../images/arch/system_bg.jpg") center/cover no-repeat;
+  background: url("./images/arch/system_bg.jpg") center/cover no-repeat;
   padding: 130px 0 0 0;
 }
 @media (max-width: 1600px) {
@@ -5001,7 +5001,7 @@ Architecture styles
 }
 
 .geo-cms {
-  background: #1C5393 url("../images/arch/geo_cms_bg.jpg") center/cover no-repeat;
+  background: #1C5393 url("./images/arch/geo_cms_bg.jpg") center/cover no-repeat;
 }
 @media (max-width: 992px) {
   .geo-cms {
@@ -5148,7 +5148,7 @@ Architecture styles
 }
 
 .collection {
-  background: url("../images/arch/collection_bg.jpg") center/cover no-repeat;
+  background: url("./images/arch/collection_bg.jpg") center/cover no-repeat;
   padding: 130px 0 0 0;
 }
 @media (max-width: 1600px) {
@@ -5424,7 +5424,7 @@ Architecture styles
   }
 }
 .unity-base__container {
-  background: #1C5393 url("../images/arch/unity-base.jpg") center/cover no-repeat;
+  background: #1C5393 url("./images/arch/unity-base.jpg") center/cover no-repeat;
   border-radius: 0 0 40px 40px;
   padding: 130px 0;
 }
@@ -5548,14 +5548,14 @@ Architecture styles
   max-width: 579px;
   width: 100%;
   height: 28px;
-  background: url("../images/arch/union_1.png") center/contain no-repeat;
+  background: url("./images/arch/union_1.png") center/contain no-repeat;
   left: 50%;
   transform: translateX(-50%);
   bottom: -35px;
 }
 @media (max-width: 768px) {
   .unity-base__schema-inner.first:after {
-    background: url("../images/arch/union_mob_unity_2.png") center/contain no-repeat;
+    background: url("./images/arch/union_mob_unity_2.png") center/contain no-repeat;
     max-width: 350px;
     height: 25px;
     bottom: -27px;
@@ -5718,14 +5718,14 @@ Architecture styles
   max-width: 579px;
   width: 100%;
   height: 28px;
-  background: url("../images/arch/union_2.png") center/contain no-repeat;
+  background: url("./images/arch/union_2.png") center/contain no-repeat;
   left: 50%;
   transform: translateX(-50%);
   bottom: -32px;
 }
 @media (max-width: 1200px) {
   .unity-base__schema-inner.sixth:after {
-    background: url("../images/arch/union_mob_unity.png") center center no-repeat;
+    background: url("./images/arch/union_mob_unity.png") center center no-repeat;
     width: 180px;
     left: 110%;
   }
@@ -5814,7 +5814,7 @@ Architecture styles
 .options__container {
   border-radius: 40px;
   box-shadow: 0px 80px 100px rgba(17, 26, 43, 0.03), 0px 40px 30px rgba(17, 26, 43, 0.02), 0px 5px 2px rgba(17, 26, 43, 0.01);
-  background: url("../images/arch/options.jpg") center/cover no-repeat;
+  background: url("./images/arch/options.jpg") center/cover no-repeat;
 }
 @media (max-width: 768px) {
   .options__container {
@@ -5916,11 +5916,11 @@ Architecture styles
   }
 }
 .options__item:nth-child(3) {
-  background: url("../images/arch/options_card_2.jpg") top left no-repeat;
+  background: url("./images/arch/options_card_2.jpg") top left no-repeat;
   background-size: cover;
 }
 .options__item:nth-child(4) {
-  background: url("../images/arch/options_card_1.jpg") center/cover no-repeat;
+  background: url("./images/arch/options_card_1.jpg") center/cover no-repeat;
   width: calc(50% - 8px);
   padding: 48px 32px;
 }
@@ -5968,7 +5968,7 @@ Architecture styles
 Technologies styles
 */
 .why {
-  background: #1C5393 url("../images/arch/geo_cms_bg.jpg") center/cover no-repeat;
+  background: #1C5393 url("./images/arch/geo_cms_bg.jpg") center/cover no-repeat;
 }
 @media (max-width: 992px) {
   .why {
@@ -6115,7 +6115,7 @@ Technologies styles
 }
 
 .infrastructure {
-  background: url("../images/technologies/infrastructure.jpg") bottom/cover no-repeat;
+  background: url("./images/technologies/infrastructure.jpg") bottom/cover no-repeat;
 }
 @media (max-width: 1440px) {
   .infrastructure {
@@ -6252,7 +6252,7 @@ Technologies styles
   }
 }
 .deployment__container {
-  background: #F8F8FA url("../images/technologies/deployment.png") 100% 50% no-repeat;
+  background: #F8F8FA url("./images/technologies/deployment.png") 100% 50% no-repeat;
   background-size: contain !important;
   padding: 0;
   border-bottom-left-radius: 40px;
@@ -6260,17 +6260,17 @@ Technologies styles
 }
 @media (max-width: 1200px) {
   .deployment__container {
-    background: #F8F8FA url("../images/technologies/deployment.png") 135% 50% no-repeat;
+    background: #F8F8FA url("./images/technologies/deployment.png") 135% 50% no-repeat;
   }
 }
 @media (max-width: 992px) {
   .deployment__container {
-    background: #F8F8FA url("../images/technologies/deployment.png") 200% 50% no-repeat;
+    background: #F8F8FA url("./images/technologies/deployment.png") 200% 50% no-repeat;
   }
 }
 @media (max-width: 768px) {
   .deployment__container {
-    background: #F8F8FA url("../images/technologies/deployment.jpg") no-repeat center;
+    background: #F8F8FA url("./images/technologies/deployment.jpg") no-repeat center;
     background-size: cover !important;
   }
 }
@@ -6395,7 +6395,7 @@ Technologies styles
   }
 }
 .deployment__item:first-child {
-  background: url("../images/specs/security_item_1.jpg") center/cover no-repeat;
+  background: url("./images/specs/security_item_1.jpg") center/cover no-repeat;
 }
 @media (max-width: 400px) {
   .deployment__item:first-child {
@@ -6403,7 +6403,7 @@ Technologies styles
   }
 }
 .deployment__item:nth-child(2) {
-  background: url("../images/specs/security_item_2.jpg") center/cover no-repeat;
+  background: url("./images/specs/security_item_2.jpg") center/cover no-repeat;
 }
 @media (max-width: 400px) {
   .deployment__item:nth-child(2) {
@@ -6467,7 +6467,7 @@ Technologies styles
   padding: 130px 0 88px 0;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  background: #FCFCFE url("../images/footer.jpg") center/cover no-repeat;
+  background: #FCFCFE url("./images/footer.jpg") center/cover no-repeat;
 }
 @media (max-width: 1200px) {
   .footer__wrapper {
@@ -7184,7 +7184,7 @@ section {
   position: relative;
 }
 .read-more__btn.read-more__btn--apache:after {
-  background: url("../images/external_link.svg") center no-repeat;
+  background: url("./images/external_link.svg") center no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -7197,7 +7197,7 @@ section {
   display: block;
   width: 11px;
   height: 11px;
-  background: url("../images/read_more_arrow.svg") center no-repeat;
+  background: url("./images/read_more_arrow.svg") center no-repeat;
 }
 
 .page__nav {
